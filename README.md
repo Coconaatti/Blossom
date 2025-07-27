@@ -44,8 +44,19 @@ And just like that,the bot is ready to run! :P. If you're having any issues runn
 ## Usage
 the bot can be accesssed using prefix or slash commands.
 
-Prefix commands
-|----|------|
+### Prefix commands
+
 |command| description |
+|----|------|
 | ``!ls <table> <arg>`` | Shows an embed of your commands from the database. |
 | ``!cat <table> <arg> <arg2> <arg3> ...`` | Concatenates your commands' content. Can have various arguments. |  
+| ``!change`` | Changes your commands' content. You can either add, remove or modify a command or a command's content |
+
+### Slash commands
+
+|command|description|
+|----|------|
+| ``cat`` | Concatenates your commands' content. This one CANNOT Have multiple arguments. However, it has an auto-complete function with a simple fuzzy finder that I'm workikng on (inspiration of fzf taken from R.danny bot). So it's both an ls and a cat command |
+| ``add`` | adds commands to a specific table|
+| ``rm`` | removes commands to a specific table| 
+| ``mod``| modifies commands' content|
