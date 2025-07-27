@@ -29,8 +29,8 @@ Third: place your own database and JSON file under the 'extras' directory. I wil
 **Please note that I used sqlite to make this possible, not PostgreSQL or OracleSQL. I don't own a server and that's why I used sqlite as it's designed for embedded devices.**
 **Make sure that there are 3 columns in your database: cid (PRIMARY KEY), Commands (TEXT) , Content (TEXT). If otherwise, you need to ALTER your columns or create new ones.\
 Commands is for the command name, and content is for the content of the command.**\
-**Make sure your commands.JSON file looks like the sample one *(remember to provide color for the embeds).***
-**remember to sync your slash commands using ``!sync`` **
+**Make sure your commands.JSON file looks like the sample one *(remember to provide color for the embeds).***\
+**remember to sync your slash commands using ``!sync``** 
 
 Fourth: [Go to the discord portal](https://discord.com/developers/applications)
 Create a new application. Follow a youtube tutorial for that, Just remember to enable the message_content intent as provided in the bot.py\
