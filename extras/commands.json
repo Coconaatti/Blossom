@@ -1,0 +1,28 @@
+{
+  "vids": {
+    "desc": "Some youtube short vids I find useful",
+    "color": 16711680
+  },
+  "excalidraw": { "desc": "My excalidraw links", "color": 9210623 },
+  "miscellaneous": {
+    "desc": "miscellaneous stuff that don't fall under a category.",
+    "color": 123
+  },
+  "maths": {
+    "desc": "linear algebra, books, mental maths, etc..",
+    "color": 123
+  },
+  "cybersecurity": { "desc": "explanatory title", "color": 123 },
+  "pixelart": {
+    "desc": "Pixel art sources (and probably my art)",
+    "color": 16734387
+  },
+  "islam": {
+    "desc": "about islam",
+    "color": 122
+  },
+  "android": {
+    "desc": "AOSP  ROMs & recoveries: compiling and building",
+    "color": 582200
+  }
+}
