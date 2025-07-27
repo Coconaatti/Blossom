@@ -60,3 +60,19 @@ the bot can be accesssed using prefix or slash commands.
 | ``add`` | adds commands to a specific table|
 | ``rm`` | removes commands to a specific table| 
 | ``mod``| modifies commands' content|
+
+## Preview
+Here's a litte preview on a copy of the bot (below my own personal bot :p)
+<img width="746" height="248" alt="image" src="https://github.com/user-attachments/assets/d52bb7fa-0c90-496a-afbc-05f249d0c0e3" />
+<img width="738" height="358" alt="image" src="https://github.com/user-attachments/assets/b1615b9d-bb38-445f-922d-3c7efecdadd6" />
+<img width="675" height="388" alt="image" src="https://github.com/user-attachments/assets/0df173c8-4cae-4b4d-9913-2cf9331e295c" />
+<img width="770" height="432" alt="image" src="https://github.com/user-attachments/assets/e94ef234-4dac-451c-b9fa-02717c99e63c" />
+<img width="777" height="295" alt="image" src="https://github.com/user-attachments/assets/f0cf5a15-9c7a-4664-af26-27817978baca" />
+<img width="767" height="506" alt="image" src="https://github.com/user-attachments/assets/ffaccef6-8279-4e09-b449-8af0d3a059d5" />
+<img width="467" height="562" alt="image" src="https://github.com/user-attachments/assets/63c3c0c9-df8c-40d3-adae-c631aeb349b4" />\
+<img width="371" height="168" alt="image" src="https://github.com/user-attachments/assets/210cbe03-988e-4e71-a333-f01dd4e3bb64" />
+
+
+## Bugs
+There are some bugs known, such as having to restart your bot just to see your newly added / removed commands. Please report them in the issues, I will work on them progressively. This is my actual first project so don't expect anything fascinating. I'm just practicing and I found the idea very creative.\
+I plan to add other features of course.
