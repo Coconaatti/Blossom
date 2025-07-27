@@ -1,28 +1,26 @@
 {
-  "vids": {
-    "desc": "Some youtube short vids I find useful",
+  "sample1": {
+    "desc": "Sample file",
     "color": 16711680
   },
-  "excalidraw": { "desc": "My excalidraw links", "color": 9210623 },
-  "miscellaneous": {
-    "desc": "miscellaneous stuff that don't fall under a category.",
+  "sample2": { 
+    "desc": "Sample file", 
+    "color": 9210623 
+  },
+  "sample3": {
+    "desc": "Sample file",
     "color": 123
   },
-  "maths": {
-    "desc": "linear algebra, books, mental maths, etc..",
-    "color": 123
-  },
-  "cybersecurity": { "desc": "explanatory title", "color": 123 },
-  "pixelart": {
-    "desc": "Pixel art sources (and probably my art)",
+  "sample4": {
+    "desc": "Sample file",
     "color": 16734387
   },
-  "islam": {
-    "desc": "about islam",
+  "sample5": {
+    "desc": "Sample file",
     "color": 122
   },
-  "android": {
-    "desc": "AOSP  ROMs & recoveries: compiling and building",
+  "sample6": {
+    "desc": "Sample file",
     "color": 582200
   }
 }
