@@ -74,5 +74,4 @@ Here's a litte preview on a copy of the bot (below my own personal bot :p)
 
 
 ## Bugs
-There are some bugs known, such as having to restart your bot just to see your newly added / removed commands. Please report them in the issues, I will work on them progressively. This is my actual first project so don't expect anything fascinating. I'm just practicing and I found the idea very creative.\
-I plan to add other features of course.
+There are some bugs, but they aren't a big deal. just be mindful when using the bot.
