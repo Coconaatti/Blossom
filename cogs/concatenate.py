@@ -4,6 +4,7 @@ from discord import app_commands
 from discord.ext import commands
 from extras.utils.sql import *
 from extras.utils.fzf import *
+from difflib import SequenceMatcher
 
 
 class cat(commands.Cog):
@@ -19,6 +20,15 @@ class cat(commands.Cog):
             val: List[str] = showup(table,req)
             await ctx.send(f'{val[1]}: {val[0]}')
 
+    @cat.error
+    async def cat_error(self,ctx,error):
+        if isinstance(error, commands.CommandInvokeError):
+            for table in tables():
+                diff = SequenceMatcher(None,ctx.args[2],table[0]).ratio() * 100
+                if 70 < diff < 100:
+                    await ctx.send(f"***Did you mean: __{table[0]}__***")
+                    val: List[str] = showup(table[0],ctx.args[3])
+                    await ctx.send(f'{val[1]}: {val[0]}')
     #async def rps_autocomplete(self, interaction: discord.Interaction, current: str) -> List[app_commands.Choice[str]]:
     #    global table
     #    choices = showup(table,None)[:25]
@@ -54,3 +64,6 @@ class cat(commands.Cog):
         choices = [app_commands.Choice(name=choice[0], value=choice[0]) for choice in choices if 60 < match(choice[0],current) <= 100][:25]
 
         return choices
+
+async def setup(bot):
+    await bot.add_cog(cat(bot))

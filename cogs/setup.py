@@ -14,7 +14,7 @@ class start(commands.Cog):
 
 async def setup(bot):
     bot.status = discord.Status.do_not_disturb
-    await bot.add_cog(command(bot))
+    await bot.load_extension('cogs.cog_ext')
     await bot.add_cog(start(bot))
-    await bot.add_cog(cat(bot))
-    await bot.add_cog(Change(bot))
+    await bot.load_extension('cogs.concatenate')
+    await bot.load_extension('cogs.modify')
