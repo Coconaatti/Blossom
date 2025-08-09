@@ -1,11 +1,5 @@
 ## OBSOLETE. until I find a solution to my problem
 
-
-#embs[emb].set_footer(text=f"page {self.index}/{len(keys) - 1}")
-#^^^^
-#NameError: name 'embs' is not defined. Did you mean: 'emb'?
-
-
 import discord
 from cogs.cog_ext import *
 
